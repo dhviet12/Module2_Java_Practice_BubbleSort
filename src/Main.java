@@ -14,9 +14,9 @@ public class Main {
         for (int i = 0; i < list.length; i++) {
             System.out.print(list[i]+ "\t");
         }
-        bubleSortByStep(list);
+        bubbleSortByStep(list);
     }
-    public static void bubleSortByStep(int[] list){
+    public static void bubbleSortByStep(int[] list){
         boolean needNextPass = true;
         for (int k = 1; k < list.length && needNextPass; k++) {
             needNextPass = false;
